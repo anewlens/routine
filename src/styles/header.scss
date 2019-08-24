@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    justify-content: center;
+
+    padding: 1.5rem;
+
+    &-title {
+        font-size: 4rem;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        color: var(--white);
+    }
+
+    &-btn {
+        background: transparent;
+        outline: none;
+        border: none;
+
+        font-size: 2rem;
+    }
+}

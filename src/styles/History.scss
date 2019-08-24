@@ -1,0 +1,28 @@
+.History {
+    position: relative;
+    height:30%;
+    margin: 3rem 1rem;
+    display: flex;
+
+    &-chart {
+        overflow-x: scroll;
+    }
+
+    &-point {
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        background-color: var(--apricot);
+        border-radius: 100px;
+        transform: translateY(-100%);
+
+        &-label {
+            position: absolute;
+            bottom: -2rem;
+            left: -1.5rem;
+            color: white;
+            font-size: 1.6rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
